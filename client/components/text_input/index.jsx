@@ -27,6 +27,7 @@ export default class TextInput extends Component {
             onChange={this.handleChange}
             className={textColor(this.state.value, 10)}
           />
+          <button className="submit" />
         </form>
       </div>
     );
